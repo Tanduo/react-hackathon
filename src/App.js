@@ -1,9 +1,8 @@
-import React from 'react';
-import { Route, HashRouter } from 'react-router-dom';
-import NavigationBar from './components/Navigation/NavigationBar';
-import './App.css';
-import FoodDeliveryComponent1 from './components/FoodDelivery/FoodDeliveryComponent1';
-import FoodDeliveryComponent2 from './components/FoodDelivery/FoodDeliveryComponent2';
+import React from "react";
+import { Route, HashRouter } from "react-router-dom";
+import NavigationBar from "./components/Navigation/NavigationBar";
+import FoodDeliveryComponent1 from "./components/FoodDelivery/FoodDeliveryComponent1";
+import FoodDeliveryComponent2 from "./components/FoodDelivery/FoodDeliveryComponent2";
 
 function App() {
   return (
@@ -13,11 +12,15 @@ function App() {
     <React.Fragment>
       <HashRouter>
         {/* Navigation Bar Component */}
-        <NavigationBar></NavigationBar> 
+        <NavigationBar></NavigationBar>
         {/* Sets the Default Path */}
-        <Route exact path='/' render={ () => (<FoodDeliveryComponent1 />)}/>
+        <Route exact path="/" render={() => <FoodDeliveryComponent1 />} />
         {/* Sets the pasth for testpage2 */}
-        <Route exact path='/testpage2' render={ () => (<FoodDeliveryComponent2 />)}/>
+        <Route
+          exact
+          path="/testpage2"
+          render={() => <FoodDeliveryComponent2 />}
+        />
       </HashRouter>
     </React.Fragment>
   );

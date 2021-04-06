@@ -61,7 +61,7 @@ export default function NavigationBar() {
           </Menu>
           {/* Typography is formatted text */}
           <Typography variant="h6" className={classes.title}>
-            TestApp
+            TestApp Hannah
           </Typography>
         </Toolbar>
       </AppBar>

@@ -4,8 +4,10 @@ import { DataGrid } from '@material-ui/data-grid';
 import Button from '@material-ui/core/Button';
 
 
-export default function FoodDeliveryHome() {
+export default function FoodDeliveryComponent1() {
   //Create a colors variable in state and set it to the data coming in from our colors data file.
+  //To understand more of what state is read the following:
+  //https://reactjs.org/docs/state-and-lifecycle.html
   const [colors, setColors] = useState(colorsData);
 
   //Set the columns for our data grid, id, and color are the two object variables from our colors data objects.
@@ -21,6 +23,7 @@ export default function FoodDeliveryHome() {
     //We are using a spread operator here to copy the array.  See the article below.
     //https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab
     //This is to set a new variable that looks slightly different than our colors object.  
+    //This has to do with the fact that it is a different memory address.
     //This is so that react knows it is as different object.
     const newColorsData = [...colors];
 

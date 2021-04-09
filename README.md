@@ -1,14 +1,88 @@
-# Pre-Req Installations
+# Pre-Reqs 
 
-## Node
+## Installations
+
+### Node
 
 https://nodejs.org/en/download/
 
 Install LTS latest version.
 
-## VS Code
+### VS Code
 
 https://code.visualstudio.com/download
+
+### GIT
+
+https://git-scm.com/downloads
+
+
+
+## Basic Terminal and CMD commands:
+
+Windows CMD:
+
+https://www.thomas-krenn.com/en/wiki/Cmd_commands_under_Windows
+
+Mac/Unix Terminal:
+
+https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/
+
+
+
+## Go get the Project from Github
+
+Go to the following address:
+
+https://github.com/Tanduo/react-hackathon
+
+Choose a location on your computer to put the project. 
+
+ex. c:\DevProjects (windows)
+
+ex. /Users/user/DevProjects/UWGB/react-hackathon (Mac)
+
+Execute the following commands (from terminal) in that directory.
+
+*git clone https://github.com/Tanduo/react-hackathon.git*
+
+The above url is gotten by clicking the code dropdown on the react hackathon github link.
+
+![image-20210409164937928](/Users/bryan/Library/Application Support/typora-user-images/image-20210409164937928.png)
+
+The code is now downloaded to your computer in that directory under react-hackathon.
+
+If you run the following commands in that directory you should be able to run the project:
+
+*npm install*
+
+*npm start*
+
+# Basic Project file Structure
+
+### node_modules 
+
+contains any of the specific packages node.js needs to run the application.  Populated by adding apps to package.json and running npm install.
+
+### public
+
+contains index.html
+
+### src
+
+contains all of our source code for the project. Under this directory you will find your readct components, your data files, and your app and index files. Your **App.js** is your starting point for this project.
+
+### .gitignore
+
+contains all files that will big ignored by git checkins.
+
+### package.json
+
+contains any node packages installed for your project.
+
+### README.md
+
+this file!
 
 # Helpful Documentation
 

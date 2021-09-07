@@ -5,6 +5,8 @@ import Button from '@material-ui/core/Button';
 
 
 export default function FoodDeliveryComponent1() {
+
+  //Jon's first commit
   //Create a colors variable in state and set it to the data coming in from our colors data file.
   //To understand more of what state is read the following:
   //https://reactjs.org/docs/state-and-lifecycle.html
